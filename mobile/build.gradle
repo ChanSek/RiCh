@@ -23,7 +23,7 @@ apply plugin: 'io.fabric'
 android {
     compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
-        applicationId "com.google.samples.apps.adssched"
+        applicationId "io.chanse.events.marriage.rich"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionName rootProject.versionName

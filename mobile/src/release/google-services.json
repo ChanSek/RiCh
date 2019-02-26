@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:111111111111:android:2222222222222222",
         "android_client_info": {
-          "package_name": "com.google.samples.apps.adssched"
+          "package_name": "io.chanse.events.marriage.rich"
         }
       },
       "oauth_client": [
@@ -22,7 +22,7 @@
           "client_id": "222222222222-33333333333333333333333333333333.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.google.samples.apps.adssched",
+            "package_name": "io.chanse.events.marriage.rich",
             "certificate_hash": "4444444444444444444444444444444444444444"
           }
         },

@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.di
+package io.chanse.events.marriage.rich.shared.di
 
-import com.google.samples.apps.adssched.shared.data.ConferenceDataRepository
-import com.google.samples.apps.adssched.shared.data.ConferenceDataSource
-import com.google.samples.apps.adssched.shared.data.FakeConferenceDataSource
-import com.google.samples.apps.adssched.shared.data.FakeLogisticsDataSource
-import com.google.samples.apps.adssched.shared.data.logistics.LogisticsDataSource
-import com.google.samples.apps.adssched.shared.data.logistics.LogisticsRepository
-import com.google.samples.apps.adssched.shared.data.session.DefaultSessionRepository
-import com.google.samples.apps.adssched.shared.data.session.SessionRepository
-import com.google.samples.apps.adssched.shared.data.userevent.DefaultSessionAndUserEventRepository
-import com.google.samples.apps.adssched.shared.data.userevent.FakeUserEventDataSource
-import com.google.samples.apps.adssched.shared.data.userevent.SessionAndUserEventRepository
-import com.google.samples.apps.adssched.shared.data.userevent.UserEventDataSource
-import com.google.samples.apps.adssched.shared.fcm.StagingTopicSubscriber
-import com.google.samples.apps.adssched.shared.fcm.TopicSubscriber
-import com.google.samples.apps.adssched.shared.time.DefaultTimeProvider
-import com.google.samples.apps.adssched.shared.time.TimeProvider
+import io.chanse.events.marriage.rich.shared.data.ConferenceDataRepository
+import io.chanse.events.marriage.rich.shared.data.ConferenceDataSource
+import io.chanse.events.marriage.rich.shared.data.FakeConferenceDataSource
+import io.chanse.events.marriage.rich.shared.data.FakeLogisticsDataSource
+import io.chanse.events.marriage.rich.shared.data.logistics.LogisticsDataSource
+import io.chanse.events.marriage.rich.shared.data.logistics.LogisticsRepository
+import io.chanse.events.marriage.rich.shared.data.session.DefaultSessionRepository
+import io.chanse.events.marriage.rich.shared.data.session.SessionRepository
+import io.chanse.events.marriage.rich.shared.data.userevent.DefaultSessionAndUserEventRepository
+import io.chanse.events.marriage.rich.shared.data.userevent.FakeUserEventDataSource
+import io.chanse.events.marriage.rich.shared.data.userevent.SessionAndUserEventRepository
+import io.chanse.events.marriage.rich.shared.data.userevent.UserEventDataSource
+import io.chanse.events.marriage.rich.shared.fcm.StagingTopicSubscriber
+import io.chanse.events.marriage.rich.shared.fcm.TopicSubscriber
+import io.chanse.events.marriage.rich.shared.time.DefaultTimeProvider
+import io.chanse.events.marriage.rich.shared.time.TimeProvider
 import dagger.Module
 import dagger.Provides
 import javax.inject.Named

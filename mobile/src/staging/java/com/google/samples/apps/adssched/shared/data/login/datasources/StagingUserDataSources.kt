@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.data.login.datasources
+package io.chanse.events.marriage.rich.shared.data.login.datasources
 
 import android.content.ContentResolver
 import android.content.Context
@@ -22,11 +22,11 @@ import android.net.Uri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.auth.UserInfo
-import com.google.samples.apps.adssched.shared.R
-import com.google.samples.apps.adssched.shared.data.signin.AuthenticatedUserInfo
-import com.google.samples.apps.adssched.shared.data.signin.datasources.AuthStateUserDataSource
-import com.google.samples.apps.adssched.shared.domain.sessions.NotificationAlarmUpdater
-import com.google.samples.apps.adssched.shared.result.Result
+import io.chanse.events.marriage.rich.shared.R
+import io.chanse.events.marriage.rich.shared.data.signin.AuthenticatedUserInfo
+import io.chanse.events.marriage.rich.shared.data.signin.datasources.AuthStateUserDataSource
+import io.chanse.events.marriage.rich.shared.domain.sessions.NotificationAlarmUpdater
+import io.chanse.events.marriage.rich.shared.result.Result
 
 /**
  * A configurable [AuthenticatedUserInfo] used for staging.

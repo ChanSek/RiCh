@@ -25,11 +25,11 @@
 
         <variable
             name="userSession"
-            type="com.google.samples.apps.adssched.model.userdata.UserSession" />
+            type="io.chanse.events.marriage.rich.model.userdata.UserSession" />
 
         <variable
             name="eventListener"
-            type="com.google.samples.apps.adssched.ui.sessioncommon.EventActions" />
+            type="io.chanse.events.marriage.rich.ui.sessioncommon.EventActions" />
 
         <variable
             name="alwaysShowDate"

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.data.login
+package io.chanse.events.marriage.rich.shared.data.login
 
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.google.samples.apps.adssched.shared.data.login.datasources.StagingAuthenticatedUserInfo
-import com.google.samples.apps.adssched.shared.data.signin.AuthenticatedUserInfo
-import com.google.samples.apps.adssched.shared.result.Result
-import com.google.samples.apps.adssched.util.signin.SignInHandler
-import com.google.samples.apps.adssched.util.signin.SignInResult
-import com.google.samples.apps.adssched.util.signin.SignInSuccess
+import io.chanse.events.marriage.rich.shared.data.login.datasources.StagingAuthenticatedUserInfo
+import io.chanse.events.marriage.rich.shared.data.signin.AuthenticatedUserInfo
+import io.chanse.events.marriage.rich.shared.result.Result
+import io.chanse.events.marriage.rich.util.signin.SignInHandler
+import io.chanse.events.marriage.rich.util.signin.SignInResult
+import io.chanse.events.marriage.rich.util.signin.SignInSuccess
 import timber.log.Timber
 
 /**

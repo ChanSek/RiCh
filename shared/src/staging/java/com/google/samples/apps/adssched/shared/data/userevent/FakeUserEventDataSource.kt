@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.data.userevent
+package io.chanse.events.marriage.rich.shared.data.userevent
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.google.samples.apps.adssched.model.SessionId
-import com.google.samples.apps.adssched.model.userdata.UserEvent
-import com.google.samples.apps.adssched.shared.data.FakeConferenceDataSource
-import com.google.samples.apps.adssched.shared.data.FakeConferenceDataSource.ALARM_SESSION_ID
-import com.google.samples.apps.adssched.shared.domain.users.StarUpdatedStatus
-import com.google.samples.apps.adssched.shared.result.Result
+import io.chanse.events.marriage.rich.model.SessionId
+import io.chanse.events.marriage.rich.model.userdata.UserEvent
+import io.chanse.events.marriage.rich.shared.data.FakeConferenceDataSource
+import io.chanse.events.marriage.rich.shared.data.FakeConferenceDataSource.ALARM_SESSION_ID
+import io.chanse.events.marriage.rich.shared.domain.users.StarUpdatedStatus
+import io.chanse.events.marriage.rich.shared.result.Result
 
 /**
  * Returns data loaded from a local JSON file for development and testing.

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.util
+package io.chanse.events.marriage.rich.shared.util
 
-import com.google.samples.apps.adssched.model.ConferenceDay
-import com.google.samples.apps.adssched.model.Session
-import com.google.samples.apps.adssched.shared.BuildConfig
+import io.chanse.events.marriage.rich.model.ConferenceDay
+import io.chanse.events.marriage.rich.model.Session
+import io.chanse.events.marriage.rich.shared.BuildConfig
 import org.threeten.bp.ZoneId
 import org.threeten.bp.ZonedDateTime
 import org.threeten.bp.format.DateTimeFormatter

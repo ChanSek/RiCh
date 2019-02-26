@@ -24,11 +24,11 @@
 
         <variable
             name="viewModel"
-            type="com.google.samples.apps.adssched.ui.speaker.SpeakerViewModel" />
+            type="io.chanse.events.marriage.rich.ui.speaker.SpeakerViewModel" />
 
         <variable
             name="headshotLoadListener"
-            type="com.google.samples.apps.adssched.ui.speaker.ImageLoadListener" />
+            type="io.chanse.events.marriage.rich.ui.speaker.ImageLoadListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

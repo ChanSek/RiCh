@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.di
+package io.chanse.events.marriage.rich.di
 
 import android.content.Context
-import com.google.samples.apps.adssched.shared.data.login.StagingAuthenticatedUser
-import com.google.samples.apps.adssched.shared.data.login.StagingSignInHandler
-import com.google.samples.apps.adssched.shared.data.login.datasources.StagingAuthStateUserDataSource
-import com.google.samples.apps.adssched.shared.data.signin.datasources.AuthIdDataSource
-import com.google.samples.apps.adssched.shared.data.signin.datasources.AuthStateUserDataSource
-import com.google.samples.apps.adssched.shared.domain.sessions.NotificationAlarmUpdater
-import com.google.samples.apps.adssched.util.signin.SignInHandler
+import io.chanse.events.marriage.rich.shared.data.login.StagingAuthenticatedUser
+import io.chanse.events.marriage.rich.shared.data.login.StagingSignInHandler
+import io.chanse.events.marriage.rich.shared.data.login.datasources.StagingAuthStateUserDataSource
+import io.chanse.events.marriage.rich.shared.data.signin.datasources.AuthIdDataSource
+import io.chanse.events.marriage.rich.shared.data.signin.datasources.AuthStateUserDataSource
+import io.chanse.events.marriage.rich.shared.domain.sessions.NotificationAlarmUpdater
+import io.chanse.events.marriage.rich.util.signin.SignInHandler
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -21,7 +21,7 @@
 
         <variable
             name="viewModel"
-            type="com.google.samples.apps.adssched.ui.info.SettingsViewModel" />
+            type="io.chanse.events.marriage.rich.ui.info.SettingsViewModel" />
 
         <variable
             name="isInstantApp"

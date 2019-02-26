@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.data
+package io.chanse.events.marriage.rich.shared.data
 
 import androidx.core.graphics.toColorInt
-import com.google.samples.apps.adssched.model.ConferenceData
-import com.google.samples.apps.adssched.model.Session
-import com.google.samples.apps.adssched.model.Tag
-import com.google.samples.apps.adssched.shared.util.TimeUtils.ConferenceDays
+import io.chanse.events.marriage.rich.model.ConferenceData
+import io.chanse.events.marriage.rich.model.Session
+import io.chanse.events.marriage.rich.model.Tag
+import io.chanse.events.marriage.rich.shared.util.TimeUtils.ConferenceDays
 import org.threeten.bp.Duration
 import org.threeten.bp.ZonedDateTime
 import timber.log.Timber

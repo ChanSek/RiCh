@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.adssched.shared.di
+package io.chanse.events.marriage.rich.shared.di
 
-import com.google.samples.apps.adssched.shared.data.job.ConferenceDataService
-import com.google.samples.apps.adssched.shared.fcm.AdsschedFirebaseInstanceIDService
-import com.google.samples.apps.adssched.shared.fcm.AdsschedFirebaseMessagingService
+import io.chanse.events.marriage.rich.shared.data.job.ConferenceDataService
+import io.chanse.events.marriage.rich.shared.fcm.AdsschedFirebaseInstanceIDService
+import io.chanse.events.marriage.rich.shared.fcm.AdsschedFirebaseMessagingService
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

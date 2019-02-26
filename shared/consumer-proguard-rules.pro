@@ -32,6 +32,6 @@
 # Databinding CardViewBindingAdapter
 -dontwarn androidx.cardview.widget.CardView
 
--keep class com.google.samples.apps.adssched.model.** {
+-keep class io.chanse.events.marriage.rich.model.** {
     *;
 }

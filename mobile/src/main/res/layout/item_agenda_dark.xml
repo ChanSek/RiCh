@@ -28,7 +28,7 @@
 
         <variable
             name="agenda"
-            type="com.google.samples.apps.adssched.model.Block" />
+            type="io.chanse.events.marriage.rich.model.Block" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
