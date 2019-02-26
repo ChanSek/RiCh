@@ -23,11 +23,11 @@
 
         <variable
             name="speaker"
-            type="com.google.samples.apps.iosched.model.Speaker" />
+            type="io.chanse.events.marriage.rich.model.Speaker" />
 
         <variable
             name="eventListener"
-            type="com.google.samples.apps.iosched.ui.sessiondetail.SessionDetailEventListener" />
+            type="io.chanse.events.marriage.rich.ui.sessiondetail.SessionDetailEventListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

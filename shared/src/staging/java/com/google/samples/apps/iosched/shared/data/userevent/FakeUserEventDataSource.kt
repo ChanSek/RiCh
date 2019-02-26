@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.shared.data.userevent
+package io.chanse.events.marriage.rich.shared.data.userevent
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.google.samples.apps.iosched.model.Session
-import com.google.samples.apps.iosched.model.SessionId
-import com.google.samples.apps.iosched.model.reservations.ReservationRequestResult
-import com.google.samples.apps.iosched.model.reservations.ReservationRequestResult.ReservationRequestStatus.RESERVE_SUCCEEDED
-import com.google.samples.apps.iosched.model.userdata.UserEvent
-import com.google.samples.apps.iosched.shared.data.BootstrapConferenceDataSource
-import com.google.samples.apps.iosched.shared.domain.users.ReservationRequestAction
-import com.google.samples.apps.iosched.shared.domain.users.ReservationRequestAction.CancelAction
-import com.google.samples.apps.iosched.shared.domain.users.ReservationRequestAction.RequestAction
-import com.google.samples.apps.iosched.shared.domain.users.StarUpdatedStatus
-import com.google.samples.apps.iosched.shared.domain.users.SwapRequestAction
-import com.google.samples.apps.iosched.shared.result.Result
+import io.chanse.events.marriage.rich.model.Session
+import io.chanse.events.marriage.rich.model.SessionId
+import io.chanse.events.marriage.rich.model.reservations.ReservationRequestResult
+import io.chanse.events.marriage.rich.model.reservations.ReservationRequestResult.ReservationRequestStatus.RESERVE_SUCCEEDED
+import io.chanse.events.marriage.rich.model.userdata.UserEvent
+import io.chanse.events.marriage.rich.shared.data.BootstrapConferenceDataSource
+import io.chanse.events.marriage.rich.shared.domain.users.ReservationRequestAction
+import io.chanse.events.marriage.rich.shared.domain.users.ReservationRequestAction.CancelAction
+import io.chanse.events.marriage.rich.shared.domain.users.ReservationRequestAction.RequestAction
+import io.chanse.events.marriage.rich.shared.domain.users.StarUpdatedStatus
+import io.chanse.events.marriage.rich.shared.domain.users.SwapRequestAction
+import io.chanse.events.marriage.rich.shared.result.Result
 
 /**
  * Returns data loaded from a local JSON file for development and testing.

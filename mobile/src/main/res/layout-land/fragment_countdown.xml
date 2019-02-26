@@ -37,7 +37,7 @@
         app:layout_constraintGuide_end="@dimen/onboarding_margins" />
 
     <!-- TODO: b/77879614 determine if this should be shown differently in landscape -->
-    <com.google.samples.apps.iosched.widget.CountdownView
+    <io.chanse.events.marriage.rich.widget.CountdownView
         android:id="@+id/countdown"
         android:layout_width="0dp"
         android:layout_height="0dp"

@@ -24,7 +24,7 @@
 
         <variable
             name="tag"
-            type="com.google.samples.apps.iosched.model.Tag" />
+            type="io.chanse.events.marriage.rich.model.Tag" />
     </data>
 
     <TextView

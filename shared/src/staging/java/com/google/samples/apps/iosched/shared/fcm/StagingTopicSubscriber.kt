@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.shared.fcm
+package io.chanse.events.marriage.rich.shared.fcm
 
 class StagingTopicSubscriber : TopicSubscriber {
     override fun subscribeToScheduleUpdates() {

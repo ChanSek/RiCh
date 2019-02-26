@@ -21,7 +21,7 @@
 
     <data>
 
-        <import type="com.google.samples.apps.iosched.R" />
+        <import type="io.chanse.events.marriage.rich.R" />
     </data>
 
     <androidx.core.widget.NestedScrollView

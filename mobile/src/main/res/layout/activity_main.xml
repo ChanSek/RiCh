@@ -21,7 +21,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.google.samples.apps.iosched.ui.MainActivity">
+    tools:context="io.chanse.events.marriage.rich.ui.MainActivity">
 
     <FrameLayout
         android:id="@+id/fragment_container"
@@ -43,7 +43,7 @@
         app:layout_insetEdge="bottom"
         app:menu="@menu/navigation" />
 
-    <com.google.samples.apps.iosched.widget.FadingSnackbar
+    <io.chanse.events.marriage.rich.widget.FadingSnackbar
         android:id="@+id/snackbar"
         android:layout_width="@dimen/snackbar_width"
         android:layout_height="wrap_content"

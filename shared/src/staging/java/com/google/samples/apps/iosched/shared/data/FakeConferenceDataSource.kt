@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.shared.data
+package io.chanse.events.marriage.rich.shared.data
 
 import androidx.core.graphics.toColorInt
-import com.google.samples.apps.iosched.model.ConferenceData
-import com.google.samples.apps.iosched.model.Session
-import com.google.samples.apps.iosched.model.Tag
-import com.google.samples.apps.iosched.shared.util.TimeUtils.ConferenceDays
+import io.chanse.events.marriage.rich.model.ConferenceData
+import io.chanse.events.marriage.rich.model.Session
+import io.chanse.events.marriage.rich.model.Tag
+import io.chanse.events.marriage.rich.shared.util.TimeUtils.ConferenceDays
 
 /**
  * ConferenceDataSource data source that never touches the network.

@@ -23,7 +23,7 @@
 
         <variable
             name="viewModel"
-            type="com.google.samples.apps.iosched.ui.info.EventInfoViewModel" />
+            type="io.chanse.events.marriage.rich.ui.info.EventInfoViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -235,7 +235,7 @@
                     app:layout_constraintStart_toStartOf="@+id/guideline_start"
                     app:layout_constraintTop_toBottomOf="@+id/assistant_app" />
 
-                <com.google.samples.apps.iosched.widget.EventView
+                <io.chanse.events.marriage.rich.widget.EventView
                     android:id="@+id/event_sessions"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -246,7 +246,7 @@
                     app:eventTitle="@string/event_sessions_title"
                     app:eventTypeLogo="@drawable/event_header_sessions" />
 
-                <com.google.samples.apps.iosched.widget.EventView
+                <io.chanse.events.marriage.rich.widget.EventView
                     android:id="@+id/event_sandbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -256,7 +256,7 @@
                     app:eventTitle="@string/event_sandbox_title"
                     app:eventTypeLogo="@drawable/event_header_sandbox" />
 
-                <com.google.samples.apps.iosched.widget.EventView
+                <io.chanse.events.marriage.rich.widget.EventView
                     android:id="@+id/event_codelabs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -266,7 +266,7 @@
                     app:eventTitle="@string/event_codelabs_title"
                     app:eventTypeLogo="@drawable/event_header_codelabs" />
 
-                <com.google.samples.apps.iosched.widget.EventView
+                <io.chanse.events.marriage.rich.widget.EventView
                     android:id="@+id/event_officehours"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -276,7 +276,7 @@
                     app:eventTitle="@string/event_officehours_title"
                     app:eventTypeLogo="@drawable/event_header_office_hours" />
 
-                <com.google.samples.apps.iosched.widget.EventView
+                <io.chanse.events.marriage.rich.widget.EventView
                     android:id="@+id/event_afterhours"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -286,7 +286,7 @@
                     app:eventTitle="@string/event_afterhours_title"
                     app:eventTypeLogo="@drawable/event_header_afterhours" />
 
-                <com.google.samples.apps.iosched.widget.EventView
+                <io.chanse.events.marriage.rich.widget.EventView
                     android:id="@+id/event_meals"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -296,7 +296,7 @@
                     app:eventTitle="@string/event_meals_title"
                     app:eventTypeLogo="@drawable/event_header_meals" />
 
-                <com.google.samples.apps.iosched.widget.CountdownView
+                <io.chanse.events.marriage.rich.widget.CountdownView
                     android:layout_width="0dp"
                     android:layout_height="@dimen/countdown_height"
                     android:layout_marginEnd="@dimen/onboarding_margins"

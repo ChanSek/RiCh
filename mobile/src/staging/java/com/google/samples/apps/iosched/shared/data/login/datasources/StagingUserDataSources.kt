@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.shared.data.login.datasources
+package io.chanse.events.marriage.rich.shared.data.login.datasources
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -22,12 +22,12 @@ import android.content.ContentResolver
 import android.content.Context
 import android.net.Uri
 import com.google.firebase.auth.UserInfo
-import com.google.samples.apps.iosched.shared.R
-import com.google.samples.apps.iosched.shared.data.signin.AuthenticatedUserInfo
-import com.google.samples.apps.iosched.shared.data.signin.AuthenticatedUserInfoBasic
-import com.google.samples.apps.iosched.shared.data.signin.datasources.AuthStateUserDataSource
-import com.google.samples.apps.iosched.shared.data.signin.datasources.RegisteredUserDataSource
-import com.google.samples.apps.iosched.shared.result.Result
+import io.chanse.events.marriage.rich.shared.R
+import io.chanse.events.marriage.rich.shared.data.signin.AuthenticatedUserInfo
+import io.chanse.events.marriage.rich.shared.data.signin.AuthenticatedUserInfoBasic
+import io.chanse.events.marriage.rich.shared.data.signin.datasources.AuthStateUserDataSource
+import io.chanse.events.marriage.rich.shared.data.signin.datasources.RegisteredUserDataSource
+import io.chanse.events.marriage.rich.shared.result.Result
 
 /**
  * A configurable [RegisteredUserDataSource] used for staging.

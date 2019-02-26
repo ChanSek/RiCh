@@ -22,7 +22,7 @@
 
         <variable
             name="viewModel"
-            type="com.google.samples.apps.iosched.ui.reservation.RemoveReservationViewModel" />
+            type="io.chanse.events.marriage.rich.ui.reservation.RemoveReservationViewModel" />
 
     </data>
 

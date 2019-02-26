@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.shared.data
+package io.chanse.events.marriage.rich.shared.data
 
-import com.google.samples.apps.iosched.shared.data.logistics.LogisticsDataSource
-import com.google.samples.apps.iosched.model.ConferenceWifiInfo
+import io.chanse.events.marriage.rich.shared.data.logistics.LogisticsDataSource
+import io.chanse.events.marriage.rich.model.ConferenceWifiInfo
 
 /**
  * LogisticsDataSource data source that never touches the network.
