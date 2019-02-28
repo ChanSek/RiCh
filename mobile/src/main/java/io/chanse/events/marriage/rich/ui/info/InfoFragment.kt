@@ -95,9 +95,9 @@ class InfoFragment : DaggerFragment(), MainNavigationFragment {
                 R.string.campaign_title
         )
         private val INFO_PAGES = arrayOf(
+                { ContactsFragment() },
                 { TravelFragment() },
-                { TravelFragment() },
-                { TravelFragment() }
+                { CampaignFragment() }
         )
     }
 }

@@ -16,14 +16,10 @@
 
 package io.chanse.events.marriage.rich.ui.info
 
-import androidx.lifecycle.ViewModel
-import io.chanse.events.marriage.rich.shared.di.FragmentScoped
-import io.chanse.events.marriage.rich.shared.di.ViewModelKey
-import dagger.Binds
 import dagger.Module
 import dagger.android.AndroidInjector
 import dagger.android.ContributesAndroidInjector
-import dagger.multibindings.IntoMap
+import io.chanse.events.marriage.rich.shared.di.FragmentScoped
 
 /**
  * Module where classes needed to create the [InfoFragment] are defined.
@@ -36,22 +32,4 @@ internal abstract class InfoModule {
     @FragmentScoped
     @ContributesAndroidInjector(modules = [InfoFragmentsModule::class])
     internal abstract fun contributeInfoFragment(): InfoFragment
-
-    /**
-     * The ViewModels are created by Dagger in a map. Via the @ViewModelKey, we define that we
-     * want to get a [SettingsViewModel] class.
-     */
-    @Binds
-    @IntoMap
-    @ViewModelKey(SettingsViewModel::class)
-    abstract fun bindSettingsFragmentViewModel(viewModel: SettingsViewModel): ViewModel
-
-    /**
-     * The ViewModels are created by Dagger in a map. Via the @ViewModelKey, we define that we
-     * want to get a [EventInfoViewModel] class.
-     */
-    @Binds
-    @IntoMap
-    @ViewModelKey(EventInfoViewModel::class)
-    abstract fun bindEventInfoFragmentViewModel(viewModel: EventInfoViewModel): ViewModel
 }
