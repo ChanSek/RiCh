@@ -116,7 +116,6 @@ class DefaultAgendaRepository : AgendaRepository {
                 startTime = ZonedDateTime.parse("2018-11-07T18:20-08:00"),
                 endTime = ZonedDateTime.parse("2018-11-07T22:20-08:00")
             ),
-
             Block(
                 title = LABEL_BREAKFAST,
                 type = TYPE_MEAL,
