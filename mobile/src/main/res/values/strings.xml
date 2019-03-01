@@ -176,6 +176,79 @@
     <string name="privacy_policy_url" translatable="false">https://policies.google.com/privacy</string>
     <string name="oss_file" translatable="false">file:///android_asset/licenses.html</string>
 
+
+
+
+    <!-- CampaignFragment -->
+    <string name="no_dowry_title" translation_description="Header label for no dowry details.">No Dowry</string>
+    <string name="no_gift_title" translation_description="Header label for no gift details.">No Gift</string>
+    <string name="gift_for_social_cause_title" translation_description="Header label for gift for social cause details.">Gift for Social Cause</string>
+
+    <string name="no_dowry_description" translation_description="Details explaining why dowry should not be taken."><![CDATA[
+    <p>Being a part of this weird society, it is difficult to make the earlier generation understand that dowry is not a good practice.
+       But unfortunately it is being practiced heavily in India in the name of tradition. Even we have tried to break this tradition and failed miserably.</p>
+    <p>Well we are not from those who accept the defeat easily. So the solution we conclude is:
+       <br/>I (Chandra Sekhar) will return the dowry after the marriage or donate it for some good cause. I hope, it will come to true soon.</p>
+    ]]></string>
+    <string name="no_gift_description" translation_description="Details explaining why gifts should not be taken."><![CDATA[
+    <p>Gifts are something that never excites me. Now a days we have changed the definition of <b>Shagun</b> completely. So please avoid giving gifts.</p>
+    ]]></string>
+    <string name="gift_for_social_cause_description" translation_description="Details explaining why we will invest your gifts for some social cause."><![CDATA[
+    <p>If you still want to give us some gift, then please do us a favor by sending some money instead of buying a gift (physical good, gift cards, etc.).</p>
+    <p>The amount we collect from you all will be invested for some or the other social cause of your choice.</p>
+    <p><b>Don't worry!!!</b>
+    <br/>This will be 100% transparent. Moreover, we will communicate with you before utilizing it for any social cause.</p>
+    <p><b>Account Details</b>
+    <br/>Account Holder Name - Chandra Sekhar Nayak
+    <br/>Account Number - 11357558854
+    <br/>IFSC Code - SBIN0001320</p>
+    <p><b>Pay Using UPI</b>
+    <br/><a href="upi://pay?pa=chansek@upi&pn=Chandra Sekhar Nayak&tn=Marriage Gift for Social Cause&cu=INR">Pay to Chandra Sekhar Nayak</a>
+    ]]></string>
+
+
+
+
+    <!-- ContactsFragment -->
+    <!-- TravelFragment -->
+    <string name="rourkela_venue_title" translation_description="Header label for Rourkela venue details and it's directions.">Rourkela Venue</string>
+    <string name="nabarangpur_venue_title" translation_description="Header label for Nabarangpur venue details and it's directions.">Nabarangpur Venue</string>
+    <string name="bride_home_title" translation_description="Header label for Bride's home address and it's directions.">Bride\'s Home</string>
+    <string name="groom_home_title" translation_description="Header label for Groom's home address and it's directions.">Groom\'s Home</string>
+
+    <string name="rourkela_venue_description" translation_description="Instructions on how to find directions to Rourkela venue."><![CDATA[
+    <p>Venue for <b>Reception and Dinner</b> is at:<br/>
+    Social Home (Community Center),<br/>
+    Sector 18,<br/>
+    Rourkela<br/></p>
+    <p>Find directions on <a href="https://www.google.com/maps/place/22%C2%B015'31.8%22N+84%C2%B051'31.7%22E/@22.258835,84.8566033,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d22.258835!4d84.858792">Google Maps</a></p>
+    ]]></string>
+    <string name="nabarangpur_venue_description" translation_description="Instructions on how to find directions to Nabarangpur venue."><![CDATA[
+    <p>Venue for <b>Reception and Lunch</b> is at:<br/>
+    Baibhav Kalyan Mandap,<br/>
+    Ghoramunda,<br/>
+    Nabarangpur<br/></p>
+    <p>Find directions on <a href="https://www.google.com/maps/place/Computer+History+Museum/@37.4142744,-122.077409,15z/data=!4m5!3m4!1s0x0:0xea8071641d7ef4f2!8m2!3d37.4142744!4d-122.077409">Google Maps</a></p>
+    ]]></string>
+    <string name="bride_home_description" translation_description="Instructions on how to find directions to Bride's home."><![CDATA[
+    <p><b>Bride's home is at:</b><br/>
+    Qr No - D/206,<br/>
+    Sector-18,<br/>
+    Rourkela,<br/>
+    Sundargarh (769003)<br/></p>
+    <p>Find directions on <a href="https://www.google.com/maps/place/22%C2%B015'31.8%22N+84%C2%B051'31.7%22E/@22.258835,84.8566033,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d22.258835!4d84.858792">Google Maps</a></p>
+    ]]></string>
+    <string name="groom_home_description" translation_description="Instructions on how to find directions to Groom's home."><![CDATA[
+    <p><b>Groom's home is at:</b><br/>
+    House No - 946,<br/>
+    Shyam Shyam Colony,<br/>
+    Jamal Colony,<br/>
+    Nabarangpur (764059)<br/></p>
+    <p>Find directions on <a href="https://www.google.com/maps/place/Computer+History+Museum/@37.4142744,-122.077409,15z/data=!4m5!3m4!1s0x0:0xea8071641d7ef4f2!8m2!3d37.4142744!4d-122.077409">Google Maps</a></p>
+    ]]></string>
+
+
+
     <string name="travel_directions_title" translation_description="Header label for driving directions details.">Driving Directions</string>
     <string name="attending_sessions_title" translation_description="Header label for attending session details.">Sessions Details</string>
     <string name="attire_title">Event attire</string>
