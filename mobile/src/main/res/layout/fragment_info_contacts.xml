@@ -36,85 +36,15 @@
             android:id="@+id/attending_sessions_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardDescription="@string/attending_sessions_description"
-            app:cardTitle="@string/attending_sessions_title" />
+            app:cardDescription="@string/contacts_rourkela_description"
+            app:cardTitle="@string/contacts_rourkela_title" />
 
         <io.chanse.events.marriage.rich.widget.CollapsibleCard
             android:id="@+id/badges_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardDescription="@string/badges_description"
-            app:cardTitle="@string/badges_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/directions_parking_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/travel_directions_description"
-            app:cardTitle="@string/travel_directions_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/shuttle_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/travel_shuttle_description"
-            app:cardTitle="@string/travel_shuttle_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/public_transportation_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/travel_public_transportation_description"
-            app:cardTitle="@string/travel_public_transportation_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/carpooling_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/travel_carpool_parking_description"
-            app:cardTitle="@string/travel_carpool_parking_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/afterhours_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/event_afterhours_description"
-            app:cardTitle="@string/event_afterhours_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/accessibility_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/accessibility_description"
-            app:cardTitle="@string/accessibility_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/attire_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/attire_description"
-            app:cardTitle="@string/attire_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/travel_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/travel_childcare"
-            app:cardTitle="@string/travel_childcare_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/prayer_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/prayer_description"
-            app:cardTitle="@string/prayer_title" />
-
-        <io.chanse.events.marriage.rich.widget.CollapsibleCard
-            android:id="@+id/soliciting_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardDescription="@string/soliciting_description"
-            app:cardTitle="@string/soliciting_title" />
+            app:cardDescription="@string/contacts_nabarangpur_description"
+            app:cardTitle="@string/contacts_nabarangpur_title" />
 
     </LinearLayout>
 

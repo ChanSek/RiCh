@@ -31,6 +31,6 @@ class TravelFragment : DaggerFragment(), MainNavigationFragment {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_info_travel, container, false)
+        return inflater.inflate(R.layout.fragment_travel, container, false)
     }
 }

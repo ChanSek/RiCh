@@ -196,12 +196,15 @@
     <string name="gift_for_social_cause_description" translation_description="Details explaining why we will invest your gifts for some social cause."><![CDATA[
     <p>If you still want to give us some gift, then please do us a favor by sending some money instead of buying a gift (physical good, gift cards, etc.).</p>
     <p>The amount we collect from you all will be invested for some or the other social cause of your choice.</p>
-    <p><b>Don't worry!!!</b>
+    <p><b>Don\'t worry!!!</b>
     <br/>This will be 100% transparent. Moreover, we will communicate with you before utilizing it for any social cause.</p>
     <p><b>Account Details</b>
     <br/>Account Holder Name - Chandra Sekhar Nayak
     <br/>Account Number - 11357558854
     <br/>IFSC Code - SBIN0001320</p>
+    <br/>Account Holder Name - Rilikta Nayak
+    <br/>Account Number - 30585713284
+    <br/>IFSC Code - SBIN0002112</p>
     <p><b>Pay Using UPI</b>
     <br/><a href="upi://pay?pa=chansek@upi&pn=Chandra Sekhar Nayak&tn=Marriage Gift for Social Cause&cu=INR">Pay to Chandra Sekhar Nayak</a>
     ]]></string>
@@ -210,6 +213,27 @@
 
 
     <!-- ContactsFragment -->
+    <string name="contacts_rourkela_title" translation_description="Header label for contact details when at Rourkela.">Contacts at Rourkela</string>
+    <string name="contacts_nabarangpur_title" translation_description="Header label for contact details when at Nabarangpur.">Contacts at Nabarangpur</string>
+
+    <string name="contacts_rourkela_description" translation_description="Instructions on whom to contact for any help at Rourkela."><![CDATA[
+    <p>For any concerns or assistance when you are at Rourkela, please do contact with below people:<p/>
+    <p>
+    <b>Rinku Subudhi</b> - <a href="tel:7008571903">7008571903</a><br/>
+    <b>Dipu Nayak</b> - <a href="tel:7008571903">7008571903</a><br/>
+    <b>Rilikta Nayak</b> - <a href="tel:7008571903">7008571903</a></p>
+    ]]></string>
+    <string name="contacts_nabarangpur_description" translation_description="Instructions on whom to contact for any help at Nabarangpur."><![CDATA[
+    <p>For any concerns or assistance when you are at Nabarangpur, please do contact with below people:<p/>
+    <p>
+    <b>Goura Hari Nayak (Rinku)</b> - <a href="tel:9178669143">9178669143</a><br/>
+    <b>Krushna Nayak (Chintu)</b> - <a href="tel:9582625907">9582625907</a><br/>
+    <b>Chandra Sekhar Nayak</b> - <a href="tel:8792629767">8792629767</a></p>
+    ]]></string>
+
+
+
+
     <!-- TravelFragment -->
     <string name="rourkela_venue_title" translation_description="Header label for Rourkela venue details and it's directions.">Rourkela Venue</string>
     <string name="nabarangpur_venue_title" translation_description="Header label for Nabarangpur venue details and it's directions.">Nabarangpur Venue</string>
@@ -228,10 +252,10 @@
     Baibhav Kalyan Mandap,<br/>
     Ghoramunda,<br/>
     Nabarangpur<br/></p>
-    <p>Find directions on <a href="https://www.google.com/maps/place/Computer+History+Museum/@37.4142744,-122.077409,15z/data=!4m5!3m4!1s0x0:0xea8071641d7ef4f2!8m2!3d37.4142744!4d-122.077409">Google Maps</a></p>
+    <p>Find directions on <a href="https://www.google.com/maps/place/BAIBHAB+Hi-tech+Function+Hall/@19.2268895,82.5418466,17z/data=!3m1!4b1!4m5!3m4!1s0x3a3ab7f58b8ca4a7:0xf51ec33c42ebf08f!8m2!3d19.2268895!4d82.5440353">Google Maps</a></p>
     ]]></string>
     <string name="bride_home_description" translation_description="Instructions on how to find directions to Bride's home."><![CDATA[
-    <p><b>Bride's home is at:</b><br/>
+    <p><b>Bride\'s home is at:</b><br/>
     Qr No - D/206,<br/>
     Sector-18,<br/>
     Rourkela,<br/>
@@ -239,12 +263,12 @@
     <p>Find directions on <a href="https://www.google.com/maps/place/22%C2%B015'31.8%22N+84%C2%B051'31.7%22E/@22.258835,84.8566033,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d22.258835!4d84.858792">Google Maps</a></p>
     ]]></string>
     <string name="groom_home_description" translation_description="Instructions on how to find directions to Groom's home."><![CDATA[
-    <p><b>Groom's home is at:</b><br/>
+    <p><b>Groom\'s home is at:</b><br/>
     House No - 946,<br/>
     Shyam Shyam Colony,<br/>
     Jamal Colony,<br/>
     Nabarangpur (764059)<br/></p>
-    <p>Find directions on <a href="https://www.google.com/maps/place/Computer+History+Museum/@37.4142744,-122.077409,15z/data=!4m5!3m4!1s0x0:0xea8071641d7ef4f2!8m2!3d37.4142744!4d-122.077409">Google Maps</a></p>
+    <p>Find directions on <a href="https://www.google.com/maps/place/19%C2%B012'48.8%22N+82%C2%B032'36.5%22E/@19.213566,82.5412683,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d19.213566!4d82.543457">Google Maps</a></p>
     ]]></string>
 
 
