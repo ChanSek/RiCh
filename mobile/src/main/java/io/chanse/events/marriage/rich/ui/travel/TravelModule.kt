@@ -14,20 +14,22 @@
  * limitations under the License.
  */
 
-package io.chanse.events.marriage.rich.ui.schedule
+package io.chanse.events.marriage.rich.ui.travel
 
-import androidx.lifecycle.ViewModel
-import io.chanse.events.marriage.rich.shared.domain.prefs.ScheduleUiHintsShowActionUseCase
-import javax.inject.Inject
+import dagger.Module
+import dagger.android.AndroidInjector
+import dagger.android.ContributesAndroidInjector
+import io.chanse.events.marriage.rich.shared.di.ChildFragmentScoped
 
 /**
- * ViewModel for the dialog to show the schedule hints.
+ * Module where classes needed to create the [TravelFragment] are defined.
  */
-class ScheduleUiHintsDialogViewModel @Inject constructor(
-    private val scheduleUiHintsShowActionUseCase: ScheduleUiHintsShowActionUseCase
-) : ViewModel() {
-
-    fun onDismissed() {
-        scheduleUiHintsShowActionUseCase(true)
-    }
+@Module
+internal abstract class TravelModule {
+    /**
+     * Generates an [AndroidInjector] for the [TravelFragment].
+     */
+    @ChildFragmentScoped
+    @ContributesAndroidInjector
+    internal abstract fun contributeTravelFragment(): TravelFragment
 }

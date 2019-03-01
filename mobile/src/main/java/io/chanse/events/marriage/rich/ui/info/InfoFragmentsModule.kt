@@ -24,13 +24,6 @@ import dagger.android.ContributesAndroidInjector
 @Module
 internal abstract class InfoFragmentsModule {
     /**
-     * Generates an [AndroidInjector] for the [TravelFragment].
-     */
-    @ChildFragmentScoped
-    @ContributesAndroidInjector
-    internal abstract fun contributeTravelFragment(): TravelFragment
-
-    /**
      * Generates an [AndroidInjector] for the [ContactsFragment].
      */
     @ChildFragmentScoped

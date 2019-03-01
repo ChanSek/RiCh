@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.chanse.events.marriage.rich.ui.info
+package io.chanse.events.marriage.rich.ui.travel
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,8 +22,9 @@ import android.view.View
 import android.view.ViewGroup
 import io.chanse.events.marriage.rich.R
 import dagger.android.support.DaggerFragment
+import io.chanse.events.marriage.rich.ui.MainNavigationFragment
 
-class TravelFragment : DaggerFragment() {
+class TravelFragment : DaggerFragment(), MainNavigationFragment {
 
     override fun onCreateView(
         inflater: LayoutInflater,

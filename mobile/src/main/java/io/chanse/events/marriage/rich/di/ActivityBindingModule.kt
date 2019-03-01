@@ -15,6 +15,8 @@
  */
 package io.chanse.events.marriage.rich.di
 
+import dagger.Module
+import dagger.android.ContributesAndroidInjector
 import io.chanse.events.marriage.rich.shared.di.ActivityScoped
 import io.chanse.events.marriage.rich.ui.LaunchModule
 import io.chanse.events.marriage.rich.ui.LauncherActivity
@@ -24,15 +26,8 @@ import io.chanse.events.marriage.rich.ui.info.InfoModule
 import io.chanse.events.marriage.rich.ui.onboarding.OnboardingActivity
 import io.chanse.events.marriage.rich.ui.onboarding.OnboardingModule
 import io.chanse.events.marriage.rich.ui.prefs.PreferenceModule
-import io.chanse.events.marriage.rich.ui.schedule.ScheduleModule
-import io.chanse.events.marriage.rich.ui.sessioncommon.EventActionsViewModelDelegateModule
-import io.chanse.events.marriage.rich.ui.sessiondetail.SessionDetailActivity
-import io.chanse.events.marriage.rich.ui.sessiondetail.SessionDetailModule
 import io.chanse.events.marriage.rich.ui.signin.SignInDialogModule
-import io.chanse.events.marriage.rich.ui.speaker.SpeakerActivity
-import io.chanse.events.marriage.rich.ui.speaker.SpeakerModule
-import dagger.Module
-import dagger.android.ContributesAndroidInjector
+import io.chanse.events.marriage.rich.ui.travel.TravelModule
 
 /**
  * We want Dagger.Android to create a Subcomponent which has a parent Component of whichever module
@@ -57,7 +52,7 @@ abstract class ActivityBindingModule {
     @ActivityScoped
     @ContributesAndroidInjector(
         modules = [
-            ScheduleModule::class,
+            TravelModule::class,
             AgendaModule::class,
             InfoModule::class,
             SignInDialogModule::class,
@@ -65,25 +60,4 @@ abstract class ActivityBindingModule {
         ]
     )
     internal abstract fun mainActivity(): MainActivity
-
-    @ActivityScoped
-    @ContributesAndroidInjector(
-        modules = [
-            SessionDetailModule::class,
-            SignInDialogModule::class,
-            PreferenceModule::class
-        ]
-    )
-    internal abstract fun sessionDetailActivity(): SessionDetailActivity
-
-    @ActivityScoped
-    @ContributesAndroidInjector(
-        modules = [
-            SpeakerModule::class,
-            SignInDialogModule::class,
-            EventActionsViewModelDelegateModule::class,
-            PreferenceModule::class
-        ]
-    )
-    internal abstract fun speakerActivity(): SpeakerActivity
 }

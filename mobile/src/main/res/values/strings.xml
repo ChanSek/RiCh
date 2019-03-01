@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <string name="title_schedule" translation_description="The title for the schedule screen where user can see their schedule for the Android Dev Summit.">Schedule</string>
+    <string name="title_travel" translation_description="The title for the travel screen where user can see the travel details to reach at the venue.">Travel</string>
     <string name="title_info" translation_description="The title for the info screen where user can see various information, such as FAQ and travel info.">Info</string>
     <string name="title_agenda" translation_description="The title for the agenda screen where user can see all the sessions they plan to attend.">Agenda</string>
 

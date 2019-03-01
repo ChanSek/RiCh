@@ -21,20 +21,18 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.firebase.ui.auth.IdpResponse
+import dagger.android.support.DaggerAppCompatActivity
 import io.chanse.events.marriage.rich.R
 import io.chanse.events.marriage.rich.shared.util.consume
 import io.chanse.events.marriage.rich.shared.util.inTransaction
-import io.chanse.events.marriage.rich.shared.util.viewModelProvider
 import io.chanse.events.marriage.rich.ui.agenda.AgendaFragment
 import io.chanse.events.marriage.rich.ui.info.InfoFragment
 import io.chanse.events.marriage.rich.ui.messages.SnackbarMessageManager
-import io.chanse.events.marriage.rich.ui.schedule.ScheduleFragment
-import io.chanse.events.marriage.rich.ui.schedule.ScheduleViewModel
+import io.chanse.events.marriage.rich.ui.travel.TravelFragment
 import io.chanse.events.marriage.rich.util.signin.FirebaseAuthErrorCodeConverter
-import dagger.android.support.DaggerAppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.navigation
+import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
-import java.util.UUID
+import java.util.*
 import javax.inject.Inject
 
 class MainActivity : DaggerAppCompatActivity() {
@@ -53,20 +51,15 @@ class MainActivity : DaggerAppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // This VM instance is shared between activity and fragments, as it's scoped to MainActivity
-        val scheduleViewModel: ScheduleViewModel = viewModelProvider(viewModelFactory)
-
         navigation.setOnNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.navigation_schedule -> consume { replaceFragment(ScheduleFragment()) }
+                R.id.navigation_travel -> consume {
+                    replaceFragment(TravelFragment())
+                }
                 R.id.navigation_info -> consume {
-                    // Scroll to current event next time the schedule is opened.
-                    scheduleViewModel.userHasInteracted = false
                     replaceFragment(InfoFragment())
                 }
                 R.id.navigation_agenda -> consume {
-                    // Scroll to current event next time the schedule is opened.
-                    scheduleViewModel.userHasInteracted = false
                     replaceFragment(AgendaFragment())
                 }
                 else -> false
@@ -76,25 +69,19 @@ class MainActivity : DaggerAppCompatActivity() {
         navigation.setOnNavigationItemReselectedListener {}
 
         if (savedInstanceState == null) {
-            // Show Schedule on first creation
-            if (navigation.selectedItemId == R.id.navigation_schedule) {
+            // Show Agenda on first creation
+            if (navigation.selectedItemId == R.id.navigation_agenda) {
                 // We need to add the fragment ourselves.
-                replaceFragment(ScheduleFragment())
+                replaceFragment(AgendaFragment())
             } else {
                 // This will replace the current fragemnt.
-                navigation.selectedItemId = R.id.navigation_schedule
+                navigation.selectedItemId = R.id.navigation_agenda
             }
         } else {
             // Find the current fragment
             currentFragment =
                 supportFragmentManager.findFragmentById(FRAGMENT_ID) as? MainNavigationFragment
                 ?: throw IllegalStateException("Activity recreated, but no fragment found!")
-        }
-
-        // Refresh conference data on launch
-        if (savedInstanceState == null) {
-            Timber.d("Refreshing conference data on launch")
-            scheduleViewModel.onSwipeRefresh()
         }
     }
 

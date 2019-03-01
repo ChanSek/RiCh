@@ -23,11 +23,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener
+import dagger.android.support.DaggerFragment
 import io.chanse.events.marriage.rich.R
 import io.chanse.events.marriage.rich.databinding.FragmentInfoBinding
 import io.chanse.events.marriage.rich.shared.analytics.AnalyticsHelper
 import io.chanse.events.marriage.rich.ui.MainNavigationFragment
-import dagger.android.support.DaggerFragment
 import javax.inject.Inject
 
 class InfoFragment : DaggerFragment(), MainNavigationFragment {
@@ -91,12 +91,10 @@ class InfoFragment : DaggerFragment(), MainNavigationFragment {
         private val TAG: String = InfoFragment::class.java.simpleName
         private val INFO_TITLES = arrayOf(
                 R.string.contacts_title,
-                R.string.travel_title,
                 R.string.campaign_title
         )
         private val INFO_PAGES = arrayOf(
                 { ContactsFragment() },
-                { TravelFragment() },
                 { CampaignFragment() }
         )
     }
