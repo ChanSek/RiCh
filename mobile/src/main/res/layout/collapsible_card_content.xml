@@ -46,7 +46,7 @@
                 android:paddingStart="@dimen/margin_normal"
                 android:paddingTop="@dimen/spacing_micro"
                 android:textAppearance="@style/TextAppearance.ADSSched.CollapsibleCard"
-                tools:text="@string/travel_shuttle_title" />
+                tools:text="@string/contacts_rourkela_title" />
 
             <ImageView
                 android:id="@+id/expand_icon"

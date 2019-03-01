@@ -62,14 +62,6 @@
         <attr name="state_reservation_pending" />
     </declare-styleable>
 
-    <declare-styleable name="EventView">
-        <attr name="eventTitle" format="string" />
-        <attr name="eventDescription" format="string" />
-        <attr name="filteredEventsLinkUri" format="string" />
-        <attr name="codelabsUri" format="string" />
-        <attr name="eventTypeLogo" format="reference" />
-    </declare-styleable>
-
     <declare-styleable name="CollapsibleCard">
         <attr name="cardTitle" format="string" />
         <attr name="cardDescription" format="string" />
