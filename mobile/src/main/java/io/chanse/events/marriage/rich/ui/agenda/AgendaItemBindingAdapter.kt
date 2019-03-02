@@ -44,15 +44,9 @@ fun agendaColor(view: View, fillColor: Int, strokeColor: Int, strokeWidth: Float
 fun agendaIcon(imageView: ImageView, type: String) {
     val iconId = when (type) {
         "henna" -> R.drawable.ic_agenda_henna
-        "after_hours" -> R.drawable.ic_agenda_after_hours
-        "badge" -> R.drawable.ic_agenda_badge
-        "codelab" -> R.drawable.ic_agenda_codelab
-        "concert" -> R.drawable.ic_agenda_concert
-        "keynote" -> R.drawable.ic_agenda_keynote
+        "handshake" -> R.drawable.ic_agenda_handshake
+        "baranugamana" -> R.drawable.ic_agenda_baranugamana
         "meal" -> R.drawable.ic_agenda_meal
-        "office_hours" -> R.drawable.ic_agenda_office_hours
-        "sandbox" -> R.drawable.ic_agenda_sandbox
-        "store" -> R.drawable.ic_agenda_store
         else -> R.drawable.ic_agenda_session
     }
     imageView.setImageDrawable(AppCompatResources.getDrawable(imageView.context, iconId))
