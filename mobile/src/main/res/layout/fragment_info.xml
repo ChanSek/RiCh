@@ -41,8 +41,7 @@
                 android:id="@+id/tabs"
                 style="@style/Widget.ADSSched.Tabs"
                 android:layout_width="match_parent"
-                android:layout_height="?actionBarSize"
-                app:tabMode="scrollable" />
+                android:layout_height="?actionBarSize" />
 
         </com.google.android.material.appbar.AppBarLayout>
 

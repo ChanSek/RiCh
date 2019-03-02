@@ -27,6 +27,7 @@ class DefaultAgendaRepository : AgendaRepository {
         private const val COLOR_HENNA = 0xff908d46.toInt()
         private const val COLOR_KEYNOTE = 0xfffdc93e.toInt()
         private const val COLOR_MEAL = 0xff9bdd7c.toInt()
+        private const val COLOR_SESSIONS = 0xff73bbf5.toInt()
     }
 
     private val blocks by lazy {
@@ -55,7 +56,7 @@ class DefaultAgendaRepository : AgendaRepository {
                 Block(
                         title = LABEL_BARANUGAMANA,
                         type = TYPE_BARANUGAMANA,
-                        color = COLOR_MEAL,
+                        color = COLOR_SESSIONS,
                         startTime = ZonedDateTime.parse("2019-03-13T17:30+05:30"),
                         endTime = ZonedDateTime.parse("2019-03-13T19:30+05:30")
                 ),
