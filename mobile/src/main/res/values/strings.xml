@@ -20,9 +20,6 @@
     <string name="title_info" translation_description="The title for the info screen where user can see various information, such as FAQ and travel info.">Info</string>
     <string name="title_agenda" translation_description="The title for the agenda screen where user can see all the sessions they plan to attend.">Agenda</string>
 
-    <!-- Schedule -->
-    <string name="session_duration_location" translatable="false">%1s / %2s</string>
-    <string name="session_date_duration_location" translatable="false">%1s / %2s / %3s</string>
     <string name="agenda_duration" translatable="false">%1$s – %2$s</string>
     <string name="dont_show" translation_description="The label for opting out of in-app notification messages.">Don\'t show</string>
 
@@ -40,14 +37,10 @@
     <string name="sign_out" translation_description="The description of a button to sign out.">Sign out</string>
 
     <!-- Cancel reservation dialog -->
-    <string name="remove_reservation_title" translation_description="The title of the dialog when the user is about to remove their reservation.">Remove reservation?</string>
-    <string name="remove_reservation_content" translation_description="The content of the dialog when the user is about to cancel their reservation.">You\'re about to give up your seat for \"%1$s\". If you decide not to reserve a seat but still want to attend, all sessions will have a portion of seats available first come, first serve onsite.</string>
     <string name="cancel" translation_description="The label of the button to keep the seat.">Cancel</string>
     <string name="remove" translation_description="The label of the button to release the seat.">Remove</string>
 
     <!-- Swap reservations dialog -->
-    <string name="swap_reservation_title" translation_description="The title of the dialog when the user is about to change their reservation from one session to another.">Swap reservation?</string>
-    <string name="swap_reservation_content" translation_description="The content of the dialog when the user is about to change their reservation from one session to another.">You already have a reservation/waitlist for \"%1$s\". Only one reservation per time block is allowed. Would you like to swap for \"%2$s\"?</string>
     <string name="swap" translation_description="The label of the button to swap the reservation with another.">Swap</string>
 
     <!-- Notifications preference dialog -->
@@ -67,11 +60,6 @@
         <item quantity="other" translation_description="Unit for duration of time by minutes. Plural.">%s minutes</item>
     </plurals>
 
-    <!--Strings for sharing session-->
-    <string name="menu_item_share_session" translation_description="The label for the button to share this session on SNS, etc.">Share session</string>
-    <string name="share_text_session_detail" translation_description="The default message to be used when user is sharing an Android Dev Summit session on SNS, etc.">Check out \'%1$s\' at #ads2018 %2$s</string>
-    <string name="intent_chooser_session_detail" translation_description="The label for share screen where user can tell people about an Android Dev Summit session on SNS, etc.">Share</string>
-
     <!-- Onboarding -->
     <string name="onboarding_get_started" translation_description="The label for the button to start using the app.">Get started</string>
     <string name="onboarding_welcome_to_google_i_o" translation_description="The welcome message shown at the onboarding screen of the app.">Welcome to the Android Dev Summit</string>
@@ -84,11 +72,6 @@
     <string name="onboarding_label_hours" translation_description="The label for the display of the number of hours until the conference starts">H</string>
     <string name="onboarding_label_mins" translation_description="The label for the display of the number of minutes until the conference starts">M</string>
     <string name="onboarding_label_seconds" translation_description="The label for the display of the number of seconds until the conference starts">S</string>
-
-    <plurals name="session_starting_in" translation_description="A countdown timer for a session starting, e.g. 'Session starting in 5 minutes'. Will always be minutes">
-        <item quantity="one">Starts in %1$s minute</item>
-        <item quantity="other">Starts in %1$s minutes</item>
-    </plurals>
 
     <string name="expanded" translation_description="The label used on a button when a view is in an expanded state.">Expanded</string>
     <string name="collapsed" translation_description="The label used on a button when a view is in an collapsed state.">Collapsed</string>
@@ -202,11 +185,6 @@
     <string name="wifi_install_error_message" translation_description="Snackbar message when saving wifi network fails.">Sorry, unable to save wifi network</string>
     <string name="wifi_install_clipboard_message" translation_description="WiFi install failed, so tell the user we saved the password to the clipboard.">Unable to save wifi network.\nSaved password to clipboard instead.</string>
     <string name="wifi_header" translation_description="Header label for wifi information.">Wifi</string>
-
-    <string name="scavenger_hunt_description" translation_description="Text explaining the scavenger hunt happening at I/O.">Join the I/O Android Things Scavenger Hunt!</string>
-    <string name="scavenger_hunt_description2" translation_description="Text explaining the scavenger hunt happening at I/O.">(Hint: There might be an Android Things Developer Kit in your future.)</string>
-    <string name="assistant_app_description" translation_description="Text explaining the I/O 18 app for Google Assistant.">Use the I/O 18 Action on Google Assistant.</string>
-    <string name="assistant_app_description2" translation_description="Text explaining the I/O 18 app for Google Assistant.">Just say \"Hey Google, talk to Google I/O 18\"!</string>
 
     <string name="no_network_connection" translation_description="Snackbar message when there is not network connection">No internet connection.</string>
 
