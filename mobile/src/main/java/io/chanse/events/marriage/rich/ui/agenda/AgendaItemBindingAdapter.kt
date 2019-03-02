@@ -43,6 +43,7 @@ fun agendaColor(view: View, fillColor: Int, strokeColor: Int, strokeWidth: Float
 @BindingAdapter("agendaIcon")
 fun agendaIcon(imageView: ImageView, type: String) {
     val iconId = when (type) {
+        "henna" -> R.drawable.ic_agenda_henna
         "after_hours" -> R.drawable.ic_agenda_after_hours
         "badge" -> R.drawable.ic_agenda_badge
         "codelab" -> R.drawable.ic_agenda_codelab
