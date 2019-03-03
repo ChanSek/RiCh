@@ -22,7 +22,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/ic_androiddevsummit_icon_grey" />
+            android:src="@mipmap/ic_launcher" />
     </item>
 
 </layer-list>
