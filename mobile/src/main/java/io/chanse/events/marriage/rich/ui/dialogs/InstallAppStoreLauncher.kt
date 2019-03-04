@@ -33,7 +33,7 @@ class InstallAppStoreLauncher @Inject constructor() {
          */
         val postInstallIntent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://developer.android.com/dev-summit")
+            Uri.parse("http://chanse.io/marriage/rich")
         ).addCategory(Intent.CATEGORY_BROWSABLE)
 
         InstantApps.showInstallPrompt(
@@ -48,4 +48,3 @@ class InstallAppStoreLauncher @Inject constructor() {
         private val REQUEST_CODE = 1
     }
 }
-
